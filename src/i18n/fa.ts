@@ -1,0 +1,28 @@
+export const fa = {
+  trip_planner_title: "برنامه‌ریزی سفر",
+  origin: "مبدا",
+  destination: "مقصد",
+  departure_date: "تاریخ رفت",
+  return_date: "تاریخ برگشت",
+  travelers: "تعداد مسافران",
+  budget: "حداکثر بودجه (ریال)",
+  hotel_needed: "پیشنهاد هتل لازم دارم",
+  preferences: "ترجیحات",
+  city_center: "مرکز شهر",
+  clean: "تمیز",
+  parking: "پارکینگ",
+  breakfast: "صبحانه",
+  family_friendly: "مناسب خانواده",
+  plan_trip: "برنامه‌ریزی سفر",
+  loading_title: "در حال برنامه‌ریزی سفر",
+  loading_text:
+    "در حال دریافت مسیر، آب‌وهوا، هتل، رستوران و هماهنگی بات‌های هوش مصنوعی...",
+  error_title: "مشکلی رخ داد",
+  result_placeholder_title: "نتیجه سفر اینجا نمایش داده می‌شود",
+  result_placeholder_text:
+    "یک سفر را اجرا کنید تا مسیر، آب‌وهوا، پیشنهاد هتل، راهنمای هوش مصنوعی، مقایسه حمل‌ونقل، مسیر رانندگی و رستوران‌ها را ببینید.",
+  submitted_request: "درخواست ارسال‌شده",
+  raw_api_response: "پاسخ خام API",
+  debug_view: "نمای دیباگ",
+  language: "زبان",
+} as const;

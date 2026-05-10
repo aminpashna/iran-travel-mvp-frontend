@@ -1,0 +1,28 @@
+export const en = {
+  trip_planner_title: "Plan your trip",
+  origin: "Origin",
+  destination: "Destination",
+  departure_date: "Departure date",
+  return_date: "Return date",
+  travelers: "Travelers",
+  budget: "Max budget (IRR)",
+  hotel_needed: "Need hotel recommendations",
+  preferences: "Preferences",
+  city_center: "City center",
+  clean: "Clean",
+  parking: "Parking",
+  breakfast: "Breakfast",
+  family_friendly: "Family friendly",
+  plan_trip: "Plan trip",
+  loading_title: "Planning your trip",
+  loading_text:
+    "Calling route, weather, hotel, restaurant, and GPT bot orchestration...",
+  error_title: "Something went wrong",
+  result_placeholder_title: "Your trip result will appear here",
+  result_placeholder_text:
+    "Run a trip from the planner and you will see route, weather, hotel recommendations, AI guidance, transport comparison, driving navigation, and restaurants.",
+  submitted_request: "Submitted Request",
+  raw_api_response: "Raw API Response",
+  debug_view: "Debug view",
+  language: "Language",
+} as const;
